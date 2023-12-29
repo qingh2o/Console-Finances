@@ -96,14 +96,18 @@ for (var i = 0; i < finances.length; i++) {
   netTotal += finances[i][1];
 
   if (i > 0) {
+    // Calculate change in Profit/Losses
     var monthlyChange = finances[i][1] - finances[i-1][1];
-  totalChange += monthlyChange;
+    totalChange += monthlyChange;
 
-  
+
 }
 }
+
+// Calculate average change
+var averageChange = totalChange / (totalMonths - 1);
 
 // Display the analysis in the console
 console.log ("Total Months: " + totalMonths);
 console.log ("Total: $" + netTotal);
-console.log ("Total Change: " + totalChange);
+console.log ("Average Change: " + averageChange.toFixed(2));
