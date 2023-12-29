@@ -86,3 +86,8 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+// Initialize variables for analysis
+var totalMonths = finances.length;
+
+// Display the analysis in the console
+console.log ("Total Months:" + totalMonths);
