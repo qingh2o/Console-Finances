@@ -89,12 +89,21 @@ var finances = [
 // Initialize variables for analysis
 var totalMonths = finances.length;
 var netTotal = 0;
+var totalChange = 0;
 
 // Loop through the finances array to calculate analysis
 for (var i = 0; i < finances.length; i++) {
   netTotal += finances[i][1];
+
+  if (i > 0) {
+    var monthlyChange = finances[i][1] - finances[i-1][1];
+  totalChange += monthlyChange;
+
+  
+}
 }
 
 // Display the analysis in the console
 console.log ("Total Months: " + totalMonths);
 console.log ("Total: $" + netTotal);
+console.log ("Total Change: " + totalChange);
