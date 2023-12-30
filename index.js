@@ -90,6 +90,8 @@ var finances = [
 var totalMonths = finances.length;
 var netTotal = 0;
 var totalChange = 0;
+var greatestDecrease = 0;
+var greatestIncrease = 0;
 
 // Loop through the finances array to calculate analysis
 for (var i = 0; i < finances.length; i++) {
@@ -97,10 +99,15 @@ for (var i = 0; i < finances.length; i++) {
 
   if (i > 0) {
     // Calculate change in Profit/Losses
-    var monthlyChange = finances[i][1] - finances[i-1][1];
-    totalChange += monthlyChange;
+    var change = finances[i][1] - finances[i-1][1];  
+    totalChange += change;  
 
+    // Check for greatest increase and decrease
+    if (change > 0) {
+      greatestIncrease = Math.max(greatestIncrease, change);
+    }
 
+       
 }
 }
 
@@ -111,3 +118,5 @@ var averageChange = totalChange / (totalMonths - 1);
 console.log ("Total Months: " + totalMonths);
 console.log ("Total: $" + netTotal);
 console.log ("Average Change: " + averageChange.toFixed(2));
+console.log ("Greatest Increase in Profits/Losses: " + greatestIncrease);
+
