@@ -20,3 +20,14 @@ When the code is opened in a browser, the resulting analysis should look similar
 ## Installation
 
 N/A
+
+## Usage 
+
+To use this Console-Finances,  you can review each file. 
+
+To check whether the code meets critical requirements, open the webpage [link](https://qingh2o.github.io/Console-Finances/). 
+
+Once the Console-Finances web page loads, open Chrome DevTools by right-clicking the page and selecting "Inspect". An Elements panel should open either below or to the side of the webpage in the browser. Click on the Console to see if the analysis results show that the financial data has been analysed correctly.
+
+The "Inspect" page should look similar to the screenshot below.
+![Page With Chrome DevTools Screenshot](./images/page-dev.png)
