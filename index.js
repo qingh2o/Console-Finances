@@ -106,7 +106,9 @@ for (var i = 0; i < finances.length; i++) {
     if (change > 0) {
       greatestIncrease = Math.max(greatestIncrease, change);
     }
-
+    if (change < 0) {
+      greatestDecrease = Math.min(greatestDecrease, change);
+    }
        
 }
 }
@@ -119,4 +121,5 @@ console.log ("Total Months: " + totalMonths);
 console.log ("Total: $" + netTotal);
 console.log ("Average Change: " + averageChange.toFixed(2));
 console.log ("Greatest Increase in Profits/Losses: " + greatestIncrease);
+console.log ("Greatest Decrease in Profits/Losses: " + greatestDecrease);
 
