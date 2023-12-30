@@ -121,6 +121,7 @@ var averageChange = totalChange / (totalMonths - 1);
 
 // Display the analysis in the console
 console.log ("Financial Analysis");
+console.log ("----------------");
 console.log ("Total Months: " + totalMonths);
 console.log ("Total: $" + netTotal);
 console.log ("Average Change: " + averageChange.toFixed(2));
