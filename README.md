@@ -30,4 +30,13 @@ To check whether the code meets critical requirements, open the webpage [link](h
 Once the Console-Finances web page loads, open Chrome DevTools by right-clicking the page and selecting "Inspect". An Elements panel should open either below or to the side of the webpage in the browser. Click on the Console to see if the analysis results show that the financial data has been analysed correctly.
 
 The "Inspect" page should look similar to the screenshot below.
+
 ![Page With Chrome DevTools Screenshot](./images/page-dev.png)
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to the LICENSE in the repo.
