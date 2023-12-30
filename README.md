@@ -7,6 +7,7 @@ This Console-Finances was created for bootcamp students who were taking the four
 
 When the code is opened in a browser, the resulting analysis should look similar to the following:
 
+  ```text
   Financial Analysis 
   ----------------
   Total Months: 86
@@ -14,3 +15,5 @@ When the code is opened in a browser, the resulting analysis should look similar
   Average Change: -2315.12
   Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
   Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
+  ```
+
