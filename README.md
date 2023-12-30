@@ -17,3 +17,6 @@ When the code is opened in a browser, the resulting analysis should look similar
   Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
   ```
 
+## Installation
+
+N/A
