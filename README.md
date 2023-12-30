@@ -5,7 +5,7 @@ Module 4 Challenge: Console Finances
 
 This Console-Finances was created for bootcamp students who were taking the fourth week's challenge. In this challenge, my task was to create JavaScript code to analyse a company's financial records.
 
-When the code is opened in a browser, the resulting analysis should look similar to the following:
+When the final code is opened in a browser, the resulting analysis should look similar to the following:
 
   ```text
   Financial Analysis 
